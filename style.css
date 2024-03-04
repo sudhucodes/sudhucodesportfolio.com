@@ -642,20 +642,10 @@ footer{
     display: block;
 }
 
-#preloader {
-    height: 70px;
-    width: 70px;
-    border: 12px solid #e3e3e3;
-    border-radius: 50%;
-    border-right-color: blueviolet;
-    animation: spin 1s ease infinite;
-    position: fixed;
-    z-index: 1000;
-    left: 50%;
-    top: 50%;
+
+a{
+    text-decoration: none;
 }
-@keyframes spin {
-    100%{
-        transform: rotate(360deg);
-    }
+a:hover{
+    text-decoration: solid;
 }
