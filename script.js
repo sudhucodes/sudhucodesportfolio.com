@@ -236,8 +236,3 @@ document.getElementById('hireBtn').addEventListener('click', function() {
   document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
 });
 
-var loader = document.getElementById("preloader");
-
-        window.addEventListener("load", function(){
-            loader.style.display = "none";
-        })
