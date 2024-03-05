@@ -507,6 +507,7 @@ footer{
 .top-footer p{
     font-size: 25px;
     font-weight: 600;
+    color: var(--text-color-third);
 }
 .middle-footer .footer-menu{
     display: flex;
@@ -529,6 +530,9 @@ footer{
     margin-top: 10px;
 }
 
+.bottom-footer a{
+    color: blue;
+}
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
 @media only screen and (max-width: 1024px){
@@ -645,7 +649,13 @@ footer{
 
 a{
     text-decoration: none;
+    color: var(--text-color-second);
 }
 a:hover{
     text-decoration: solid;
+}
+
+.top-footer span{
+    color: var(--text-color-second);
+    font-size: 40px;
 }
